@@ -1,6 +1,6 @@
-# Astro with Svelte and Tailwind
+# Astro with Svelte and Skeleton
 
-## Initialize Astro with TailwindCSS and add Svelte
+## Initialize the project
 
 ```sh
 pnpm create astro@latest --template with-tailwindcss
