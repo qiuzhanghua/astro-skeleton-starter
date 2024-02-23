@@ -1,0 +1,31 @@
+---
+// Component Imports
+import Button from "../components/Button.astro";
+import SkeletonComponent from "../components/SkeletonComponent.svelte";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Astro + Svelte + Skeleton</title>
+  </head>
+
+  <body data-theme="modern">
+    <button type="button" class="btn-icon variant-filled">(icon)</button>
+    <button type="button" class="btn variant-filled">Button</button>
+    <button type="button" class="btn variant-filled">
+      <span>(icon)</span>
+      <span>Button</span>
+    </button>
+
+    <div class="grid place-items-center h-screen content-center">
+      <Button>Tailwind Button in Astro!</Button>
+      <a href="/markdown-page" class="p-4 underline"
+        >Markdown is also supported...</a
+      >
+      <p>Table of Skeleton</p>
+      <SkeletonComponent client:only />
+    </div>
+  </body>
+</html>
