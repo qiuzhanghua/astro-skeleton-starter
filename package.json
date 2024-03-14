@@ -13,22 +13,22 @@
     "clean": "rimraf dist"
   },
   "dependencies": {
-    "@astrojs/check": "^0.5.5",
-    "@astrojs/mdx": "^2.1.1",
-    "@astrojs/svelte": "^5.0.3",
+    "@astrojs/check": "^0.5.9",
+    "@astrojs/mdx": "^2.2.0",
+    "@astrojs/svelte": "^5.2.0",
     "@astrojs/tailwind": "^5.1.0",
     "@types/canvas-confetti": "^1.6.4",
-    "astro": "^4.4.3",
-    "autoprefixer": "^10.4.17",
+    "astro": "^4.5.3",
+    "autoprefixer": "^10.4.18",
     "canvas-confetti": "^1.9.2",
     "postcss": "^8.4.35",
     "svelte": "^4.2.11",
     "tailwindcss": "^3.4.1"
   },
   "devDependencies": {
-    "@skeletonlabs/skeleton": "^2.8.0",
+    "@skeletonlabs/skeleton": "^2.9.0",
     "@skeletonlabs/tw-plugin": "^0.3.1",
-    "@types/node": "^20.11.20",
+    "@types/node": "^20.11.27",
     "prettier": "^3.2.5",
     "prettier-plugin-astro": "^0.13.0",
     "rimraf": "^5.0.5"
